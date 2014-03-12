@@ -1,0 +1,57 @@
+html {
+  font: 75% Times New Roman, sans-serif;
+}
+a:link
+{
+color:blue;
+}
+a:visited
+{
+color:red;
+}
+a:hover
+{
+color:white;
+}
+a:active
+{
+color:yellow;
+}
+body
+{
+color:Safety Orange;
+background-color:cinnamon;
+}
+ol
+{
+color: hsla(39, 97%, 44%, 1.0);
+background-color: hsla(16, 96%, 44%, 1.0);
+}
+p
+{
+text-indent:25px;
+font: normal normal 400 11pt/1.25 'Courier New', sans-serif;
+color: rgba(219, 145, 3, 1.0);
+background-color: rgba(218, 62, 5, 1.0);
+}
+h1
+{
+text-shadow: -6px 2px #D8C46E;
+font-family:'Lucida Casual', 'Comic Sans MS';
+letter-spacing:-2px;
+color:#DB9103;
+background-color:#DA3E05;
+}
+h2
+{
+text-shadow: 2px 2px #D8C46E;
+text-transform:uppercase;
+font: normal normal 900 20pt/1 'Times New Roman', sans-serif;
+color: hsl(39, 97%, 44%);
+background-color: hsl(16, 96%, 44%);
+}
+ul
+{
+color: rgb(219, 145, 3);
+background-color: rgb(218, 62, 5);
+} 
