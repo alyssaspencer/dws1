@@ -1,0 +1,238 @@
+html {
+	font-family: Times New Roman, sans-serif;
+}
+/*
+http://www.dinpattern.com/2011/12/01/renzler-powered-down/ for the background
+www.squidfingers.com/_patterns/files/pattern_044.zip for h1 banner
+www.squidfingers.com/_patterns/files/pattern_041.zip for other banners
+http://www.iconarchive.com/show/american-states-icons-by-custom-icon-design/New-York-Flag-icon.html icon
+http://sabreuse.com/wp-content/uploads/2013/06/red-submit-button-hi.png this is the submit button
+*/
+
+body {
+	margin: 0 auto;
+	width: 98%;
+	min-width: 600px;
+	/*background-color:skyblue; */
+	background:hsla(26, 100%, 40%, 1.0) url(../images/renzler-power-down.gif) repeat center center;
+	border: .2em solid #fff;
+	border-radius: 2em;
+	box-shadow: 10px 10px 5px #888888;
+}
+a:link {
+	color:blue;
+}
+a:visited {
+	color:green;
+}
+a:hover {
+	color:red;
+}
+a:active {
+	color:yellow;
+}
+table {
+	width: 90%;
+    overflow: auto;
+	margin: 0 auto;
+        }
+th, td {
+    padding: 7px 10px 10px 10px;
+        }
+th {
+	letter-spacing: 0.1em;
+	font-size: 90%;
+	border-bottom: 2px solid #111111;
+	text-align: center;
+	text-transform: uppercase;
+}
+td {
+	letter-spacing: 0.1em;
+	font-size: 90%;
+	border-bottom: 2px solid #111111;
+	text-align: center;
+	text-transform: uppercase;
+}        
+
+td.pop {
+	background-color: #2F6FAB;
+}
+td.pop2 {
+	background-color: orange;
+}
+tr:hover {
+        background-color: orange;
+        }
+
+ol {
+    color: hsla(209, 57%, 43%, 1.0);
+    background-color: hsla(26, 100%, 40%, 1.0);
+	width: 70%;
+	list-style-type: none;
+	text-align: center;
+	border: 1px solid #000;
+	/*padding: 5px; */
+	margin: .3% auto;
+	text-transform:capitalize;
+}
+
+ol>li {
+display:inline;
+}
+#part1, #part2, #part3{
+	float:left;
+	width: 30%;
+	margin-left: 1.1%;
+	margin-bottom: 5px;
+	padding: 5px;
+}
+#content article{
+	float:left;
+	width: 30%;
+	height: 800px;
+	margin-left: 1.1%;
+	margin-bottom: 5px;
+	padding: 5px;
+	overflow: scroll;
+        } 
+#content.clearfix	
+{
+	overflow: auto;
+} 
+
+
+p 
+{
+	text-indent:.5%;
+	font: normal normal 400 11pt/1.25 'Courier New', sans-serif;
+	color: rgba(0, 0, 0, 1.0);
+    background: linear-gradient(135deg, #cc5800 0%,#2989d8 50%,#207cca 51%,#2f6fab 100%);
+	/*width: 720px; */
+	text-align: left;
+	margin: .5% auto;
+}
+h1 
+{
+	text-shadow: 6px 2px #000000;
+	font-family:'Lucida Casual', 'Comic Sans MS';
+	/*letter-spacing:2px; */
+	color:#CC5800;
+	background-color:#2F6FAB;
+	background-image: url("../images/pattern_044.gif");
+	margin: 5px auto;
+	text-align: center;
+	border: 5px solid;
+	border-radius: 1em;
+}
+h2 
+{
+	text-align: center;
+	text-transform:capitalize;
+	text-shadow: 2px 2px #ffffff;
+	font: normal normal 900 20pt/1 'Times New Roman', sans-serif;
+	color: hsl(26, 100%, 40%);
+	display:inline-block; 
+	background: hsl(209, 57%, 43%) url(../images/New-York-Flag-icon.png) no-repeat left;
+	background-size: 35px auto;
+	height: 40px;
+	width:100%;
+	/*padding: 5px;
+	margin: 5px auto;
+	padding: 5px;
+	text-align: center; */
+	border: 2px solid;
+	border-radius: 1em;
+}
+/*h3
+{
+color: hsl(0, 100%, 27%);
+background-color: hsl(209, 57%, 43%);
+} */
+/*ul 
+{
+	clear: both;
+	width: 75%;
+	text-transform:lowercase;
+	color: rgb(139, 0, 0);
+	background-color: rgb(47, 111, 171);
+	list-style-type: square;
+	border: 1px solid #000;
+	padding: 15px;
+	margin: 0 auto;
+} */
+aside {
+	clear: both;
+	width: 65%;
+	text-transform:lowercase;
+    color: rgb(204, 88, 0);
+	background-color:rgb(47, 111, 171);
+	list-style-type: square;
+	border: 1px solid #000;
+	padding: 5px;
+	margin: 0 auto;
+   }
+
+#contact_content article {
+        float:left;
+        width: 30%;
+        height: 340px;
+        margin-left: 1.1%;
+        margin-bottom: 5px;
+        padding: 5px;
+        }
+input {
+        width: 200px;
+        border: 1px solid #ffffff;
+        padding: 2px;
+        }
+input:focus, input:hover {
+        border: 1px solid #39F;
+        background-color: #CC5800;
+        }
+#submit {
+        width: 205px;
+        height: 25px;
+        text-align: right;
+        border: 1px solid #000;
+        background-color:#39f;
+        color:#39f;
+        padding: 2px;
+        margin: 10px auto;
+        }
+
+fieldset {
+        width: 280px;
+        margin: 20px auto;
+        border: 1px solid #000;
+        }
+textarea {
+        background-color: #CC5800;
+        width: 280px;
+        height: 180px;
+        margin: 20px auto;
+        border: 1px solid #abc;
+        font: normal normal 10px/150% Times New Roman, sans-serif;
+        }        
+legend {
+        font-style: italic;
+        color: #CC5800;
+        }
+#title {
+        float: left;
+        width: 150px;
+        clear: left;
+        }	
+ figure {
+        float: left;
+        width: 190px;   
+        height: 200px;
+        padding: 25px;
+        margin: 40px auto;
+        border: 1px solid #eeeeee;
+        }
+figcaption {
+        font-size: 90%;
+        text-align: left;
+        }
+
+       
